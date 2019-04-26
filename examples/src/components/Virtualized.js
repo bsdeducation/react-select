@@ -18,7 +18,7 @@ var CitiesField = React.createClass({
 		return (
 			<div className="section">
 				<h3 className="section-heading">Cities (Large Dataset)</h3>
-				<VirtualizedSelect ref="citySelect"
+				<VirtualizedSelect  //ref="citySelect"
 					options={options}
 					simpleValue
 					clearable
