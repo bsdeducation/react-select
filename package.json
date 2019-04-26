@@ -44,8 +44,10 @@
     "unexpected-sinon": "^10.4.0"
   },
   "peerDependencies": {
-    "react": "^0.14 || ^15.0.0-rc || ^15.0",
-    "react-dom": "^0.14 || ^15.0.0-rc || ^15.0"
+    "react": "^0.14 || ^15.0.0-rc || ^15.0 || ^16.0",
+    "react-dom": "^0.14 || ^15.0.0-rc || ^15.0 || ^16.0",
+    "create-react-class": "^15",
+    "prop-types": "^15"
   },
   "browserify-shim": {
     "classnames": "global:classNames",
