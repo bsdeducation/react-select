@@ -1,10 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Select from 'react-select';
+import createReactClass from 'create-react-class';
 
 const STATES = require('../data/states');
 
-var StatesField = React.createClass({
+var StatesField = createReactClass({
 	displayName: 'StatesField',
 	propTypes: {
 		label: PropTypes.string,

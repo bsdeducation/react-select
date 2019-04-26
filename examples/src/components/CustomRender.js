@@ -2,8 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Select from 'react-select';
 import Highlighter from 'react-highlight-words';
+import createReactClass from 'create-react-class';
 
-var DisabledUpsellOptions = React.createClass({
+var DisabledUpsellOptions = createReactClass({
 	displayName: 'DisabledUpsellOptions',
 	propTypes: {
 		label: PropTypes.string,

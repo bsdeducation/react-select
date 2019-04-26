@@ -1,7 +1,8 @@
 import React from 'react';
 import Select from 'react-select';
+import createReactClass from 'create-react-class';
 
-var CreatableDemo = React.createClass({
+var CreatableDemo = createReactClass({
 	displayName: 'CreatableDemo',
 	propTypes: {
 		hint: PropTypes.string,

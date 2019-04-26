@@ -3,8 +3,9 @@ import PropTypes from 'prop-types';
 import Select from './Select';
 import defaultFilterOptions from './utils/defaultFilterOptions';
 import defaultMenuRenderer from './utils/defaultMenuRenderer';
+import createReactClass from 'create-react-class';
 
-const Creatable = React.createClass({
+const Creatable = createReactClass({
 	displayName: 'CreatableSelect',
 
 	propTypes: {
